@@ -1,5 +1,0 @@
-<application>
-  <component name="IntentionManagerSettings">
-    <ignoreAction name="TypeScript/Disable coloring of narrowed types" />
-  </component>
-</application>
