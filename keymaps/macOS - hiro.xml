@@ -1,0 +1,5 @@
+<keymap version="1" name="macOS - hiro" parent="Mac OS X 10.5+">
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+</keymap>
