@@ -198,6 +198,12 @@
   </action>
   <action id="FindNext" />
   <action id="FindPrevious" />
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="meta u" />
+  </action>
+  <action id="FindUsagesInFile">
+    <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="f" />
+  </action>
   <action id="Git.Add" />
   <action id="Git.Commit.And.Push.Executor" />
   <action id="Git.Commit.Stage">
@@ -219,6 +225,7 @@
   <action id="GithubCopyPathProvider">
     <keyboard-shortcut first-keystroke="shift meta c" second-keystroke="1" />
   </action>
+  <action id="GotoSuperMethod" />
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
@@ -229,6 +236,7 @@
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="shift h" />
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="down" />
   </action>
+  <action id="Markdown.Styling.CreateLink" />
   <action id="MoveLineDown" />
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="d" />
@@ -278,7 +286,13 @@
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
+  <action id="ShowRecentFindUsagesGroup">
+    <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="r" />
+  </action>
   <action id="ShowSearchHistory" />
+  <action id="ShowSettingsAndFindUsages">
+    <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="s" />
+  </action>
   <action id="StartStopMacroRecording">
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="up" />
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="s" />
@@ -316,6 +330,7 @@
   <action id="VcsShowPrevChangeMarker">
     <keyboard-shortcut first-keystroke="f7" />
   </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleCodeSpanAction" />
   <action id="tasks.close" />
 </keymap>
