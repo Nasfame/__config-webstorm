@@ -109,6 +109,9 @@
   <action id="EditMacros">
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="e" />
   </action>
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
@@ -217,6 +220,11 @@
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl right" />
+  </action>
+  <action id="OpenInRightSplit">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <mouse-shortcut keystroke="alt button1 doubleClick" />
+    <mouse-shortcut keystroke="meta button1 doubleClick" />
   </action>
   <action id="PlaySavedMacrosAction">
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="p" />
