@@ -60,7 +60,18 @@
     <keyboard-shortcut first-keystroke="alt t" second-keystroke="g" />
   </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="ChangesView.AddUnversioned">
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="a" />
+  </action>
+  <action id="ChangesView.Edit">
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="o" />
+  </action>
+  <action id="ChangesView.RemoveDeleted">
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="back_space" />
+  </action>
   <action id="ChangesView.SetDefault" />
+  <action id="ChangesView.ShelveSilently" />
+  <action id="ChangesView.UnshelveSilently" />
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
@@ -88,6 +99,10 @@
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="up" />
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="r" />
   </action>
+  <action id="CompareClipboardWithSelection">
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="shift v" />
+  </action>
+  <action id="CompareTwoFiles" />
   <action id="CopyAsPlainText">
     <keyboard-shortcut first-keystroke="shift meta c" second-keystroke="c" />
   </action>
@@ -105,6 +120,9 @@
   </action>
   <action id="CopyPaths">
     <keyboard-shortcut first-keystroke="shift meta c" second-keystroke="p" />
+  </action>
+  <action id="Diff.ShowDiff">
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="d" />
   </action>
   <action id="EditMacros">
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="e" />
@@ -188,6 +206,9 @@
   <action id="Git.CompareWithBranch">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="b" />
   </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="f" />
+  </action>
   <action id="Git.Log.Branches.Change.Branch.Filter">
     <keyboard-shortcut first-keystroke="enter" />
   </action>
@@ -204,9 +225,6 @@
   <action id="JumpToLastWindow" />
   <action id="List-selectLastRow" />
   <action id="List-selectLastRowExtendSelection" />
-  <action id="LocalHistory.ShowHistory">
-    <keyboard-shortcut first-keystroke="meta g" second-keystroke="h" />
-  </action>
   <action id="LocalHistory.ShowSelectionHistory">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="shift h" />
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="down" />
@@ -218,6 +236,7 @@
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="f" />
   </action>
+  <action id="NextDiff" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
@@ -243,14 +262,25 @@
     <mouse-shortcut keystroke="button1 doubleClick" />
   </action>
   <action id="RecentLocations" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="ctrl f2" />
+  </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="meta alt r" />
+  </action>
   <action id="SelectAllOccurrences" />
   <action id="SelectNextOccurrence" />
+  <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="ShowSearchHistory" />
   <action id="StartStopMacroRecording">
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="up" />
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="s" />
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="space" />
   </action>
+  <action id="StepInto" />
   <action id="Synchronize" />
   <action id="Table-selectFirstRow" />
   <action id="ToggleBookmarkWithMnemonic" />
@@ -264,6 +294,19 @@
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="p" />
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="right" />
+  </action>
+  <action id="Vcs.ShowHistoryForRevision">
+    <keyboard-shortcut first-keystroke="shift g" second-keystroke="shift h" />
+  </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="h" />
+  </action>
+  <action id="VcsHistory.ShowAllAffected" />
+  <action id="VcsShowNextChangeMarker">
+    <keyboard-shortcut first-keystroke="f9" />
+  </action>
+  <action id="VcsShowPrevChangeMarker">
+    <keyboard-shortcut first-keystroke="f7" />
   </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleCodeSpanAction" />
   <action id="tasks.close" />
