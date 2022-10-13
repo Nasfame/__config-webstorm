@@ -247,6 +247,10 @@
   </action>
   <action id="PlaySavedMacrosAction">
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="alt m" second-keystroke="f9" />
+  </action>
+  <action id="PlaybackLastMacro">
+    <keyboard-shortcut first-keystroke="alt m" second-keystroke="f7" />
   </action>
   <action id="PrevSplitter" />
   <action id="PreviousTab">
@@ -279,6 +283,7 @@
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="up" />
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="s" />
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="space" />
+    <keyboard-shortcut first-keystroke="alt m" second-keystroke="f8" />
   </action>
   <action id="StepInto" />
   <action id="Synchronize" />
