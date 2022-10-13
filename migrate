@@ -1,2 +1,10 @@
 cp -r keymaps ../goland
+cp -r keymaps ../rubymine
+cp -r keymaps ../pycharm
+cp -r keymaps ../webstorm
+
+cp migrate ../goland
+cp migrate ../pycharm
+cp migrate ../webstorm
+cp migrate ../rubymine
 
