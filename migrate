@@ -1,1 +1,2 @@
-mv keymaps ../goland
+cp keymaps ../goland
+
