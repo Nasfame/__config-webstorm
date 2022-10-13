@@ -3,6 +3,62 @@
     <keyboard-shortcut first-keystroke="shift meta z" />
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
+  <action id="ActivateBookmarksToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+    <keyboard-shortcut first-keystroke="alt t" second-keystroke="b" />
+  </action>
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="meta 0" />
+    <keyboard-shortcut first-keystroke="alt t" second-keystroke="c" />
+  </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="meta 5" />
+    <keyboard-shortcut first-keystroke="alt t" second-keystroke="d" />
+  </action>
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="meta 3" />
+    <keyboard-shortcut first-keystroke="alt t" second-keystroke="f" />
+  </action>
+  <action id="ActivateNotificationsToolWindow">
+    <keyboard-shortcut first-keystroke="alt t" second-keystroke="n" />
+  </action>
+  <action id="ActivateProblemsViewToolWindow">
+    <keyboard-shortcut first-keystroke="meta 6" />
+    <keyboard-shortcut first-keystroke="alt t" second-keystroke="shift exclamation_mark" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="meta 1" />
+    <keyboard-shortcut first-keystroke="alt t" second-keystroke="p" />
+  </action>
+  <action id="ActivatePullRequestsToolWindow">
+    <keyboard-shortcut first-keystroke="alt t" second-keystroke="left" />
+  </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="meta 4" />
+    <keyboard-shortcut first-keystroke="alt t" second-keystroke="r" />
+  </action>
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="meta 8" />
+    <keyboard-shortcut first-keystroke="alt t" second-keystroke="shift s" />
+  </action>
+  <action id="ActivateSpaceCodeReviewsToolWindow">
+    <keyboard-shortcut first-keystroke="alt t" second-keystroke="down" />
+  </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="meta 7" />
+    <keyboard-shortcut first-keystroke="alt t" second-keystroke="s" />
+  </action>
+  <action id="ActivateTODOToolWindow">
+    <keyboard-shortcut first-keystroke="alt t" second-keystroke="3" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt t" second-keystroke="t" />
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="meta 9" />
+    <keyboard-shortcut first-keystroke="alt t" second-keystroke="g" />
+  </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="ChangesView.SetDefault" />
   <action id="CloseActiveTab">
@@ -142,6 +198,7 @@
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
+  <action id="JumpToLastWindow" />
   <action id="List-selectLastRow" />
   <action id="List-selectLastRowExtendSelection" />
   <action id="LocalHistory.ShowHistory">
@@ -189,6 +246,9 @@
   <action id="Synchronize" />
   <action id="Table-selectFirstRow" />
   <action id="ToggleBookmarkWithMnemonic" />
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
   <action id="Tree-selectFirst" />
   <action id="UnselectPreviousOccurrence" />
   <action id="UsageView.Include" />
