@@ -1,0 +1,106 @@
+<keymap version="1" name="hiro" parent="Mac OS X 10.5+">
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift meta minus" second-keystroke="a" />
+  </action>
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
+  <action id="CollapseRegionRecursively">
+    <keyboard-shortcut first-keystroke="shift meta minus" second-keystroke="r" />
+  </action>
+  <action id="Compare.Selected">
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="up" />
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="r" />
+  </action>
+  <action id="EditorBackSpace">
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="EditorCutLineEnd" />
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl meta minus" />
+  </action>
+  <action id="EditorDecreaseFontSizeGlobal">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift back_space" second-keystroke="l" />
+  </action>
+  <action id="EditorDeleteToLineEnd">
+    <keyboard-shortcut first-keystroke="shift back_space" second-keystroke="right" />
+  </action>
+  <action id="EditorDeleteToLineStart">
+    <keyboard-shortcut first-keystroke="shift back_space" second-keystroke="left" />
+  </action>
+  <action id="EditorDeleteToWordEnd">
+    <keyboard-shortcut first-keystroke="alt delete" />
+    <keyboard-shortcut first-keystroke="shift back_space" second-keystroke="down" />
+  </action>
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="alt back_space" />
+    <keyboard-shortcut first-keystroke="shift back_space" second-keystroke="up" />
+  </action>
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+  </action>
+  <action id="EditorDownWithSelection">
+    <keyboard-shortcut first-keystroke="meta page_down" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="meta equals" />
+  </action>
+  <action id="EditorIncreaseFontSizeGlobal">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="EditorLeft">
+    <keyboard-shortcut first-keystroke="left" />
+  </action>
+  <action id="EditorLeftWithSelection">
+    <keyboard-shortcut first-keystroke="meta home" />
+  </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="alt c" second-keystroke="right" />
+  </action>
+  <action id="EditorLineEndWithSelection" />
+  <action id="EditorMoveToPageBottom" />
+  <action id="EditorTextStart" />
+  <action id="ExternalSystem.CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="FindNext" />
+  <action id="Git.Add" />
+  <action id="Git.Commit.And.Push.Executor" />
+  <action id="Git.Commit.Stage">
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="c" />
+  </action>
+  <action id="Git.CompareWithBranch">
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="b" />
+  </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="left" />
+  </action>
+  <action id="GitToolBox.BlameDetails" />
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="LocalHistory.ShowHistory">
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="h" />
+  </action>
+  <action id="LocalHistory.ShowSelectionHistory">
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="shift h" />
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="down" />
+  </action>
+  <action id="Table-selectFirstRow" />
+  <action id="Tree-selectFirst" />
+  <action id="UsageView.Include" />
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="right" />
+  </action>
+</keymap>
