@@ -53,7 +53,7 @@
     <keyboard-shortcut first-keystroke="meta page_down" />
   </action>
   <action id="EditorIncreaseFontSize">
-    <keyboard-shortcut first-keystroke="meta equals" />
+    <keyboard-shortcut first-keystroke="ctrl meta equals" />
   </action>
   <action id="EditorIncreaseFontSizeGlobal">
     <keyboard-shortcut first-keystroke="ctrl equals" />
