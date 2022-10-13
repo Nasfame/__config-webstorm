@@ -7,5 +7,18 @@
       <shortuct text="meta W" />
       <shortuct text="meta W" />
     </macro>
+    <macro name="test2">
+      <typing text-keycode="67:0;79:0;78:0;83:0;79:0;76:0;69:0;46:0;76:0;79:0;71:0;519:1;152:1;72:0;73:0;32:0;73:0;83:0;32:0">console.log(&quot;hi&amp;#x20;is&amp;#x20;</typing>
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+      <typing text-keycode="84:0;72:0;73:0;83:0;32:0;73:0;83:0;32:0;78:0;65:0;83:0;72:0;65:0;84:0;65:0">this&amp;#x20;is&amp;#x20;nashata</typing>
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+      <typing text-keycode="65:0;65:0;84:0;72:0;32:0;73:0;69:0;32:0;72:0;73:0;82:0;79:0">aath&amp;#x20;ie&amp;#x20;hiro</typing>
+      <action id="EditorRight" />
+      <action id="EditorRight" />
+      <typing text-keycode="59:0">;</typing>
+    </macro>
   </component>
 </application>
