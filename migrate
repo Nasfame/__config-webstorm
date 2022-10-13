@@ -8,3 +8,7 @@ cp migrate ../pycharm
 cp migrate ../webstorm
 cp migrate ../rubymine
 
+cp git2 ../goland
+cp git2 ../pycharm
+cp git2 ../webstorm
+cp git2 ../rubymine
