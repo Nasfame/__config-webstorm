@@ -104,6 +104,7 @@
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="shift v" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.SetDefault" />
   <action id="CopyAsPlainText">
     <keyboard-shortcut first-keystroke="shift meta c" second-keystroke="c" />
   </action>
