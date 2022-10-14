@@ -1,4 +1,3 @@
-
 git add .
-git commit -m "mine"
-git push
+git commit -m "automated by baymax" 
+git push -f
