@@ -1,5 +1,0 @@
-<keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
-  <action id="ShelvedChanges.Rename">
-    <keyboard-shortcut first-keystroke="f2" />
-  </action>
-</keymap>
