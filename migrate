@@ -1,7 +1,8 @@
-cp -r keymaps ../goland
-cp -r keymaps ../rubymine
-cp -r keymaps ../pycharm
-cp -r keymaps ../webstorm
+cp -r keymaps _mac ../goland
+cp -r keymaps _mac ../rubymine
+cp -r keymaps _mac ../pycharm
+cp -r keymaps _mac ../webstorm
+
 
 cp migrate ../goland
 cp migrate ../pycharm
@@ -12,3 +13,5 @@ cp git2 ../goland
 cp git2 ../pycharm
 cp git2 ../webstorm
 cp git2 ../rubymine
+
+
