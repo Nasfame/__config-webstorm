@@ -277,6 +277,7 @@
     <keyboard-shortcut first-keystroke="shift meta c" second-keystroke="1" />
   </action>
   <action id="GotoSuperMethod" />
+  <action id="GotoTest" />
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
@@ -288,6 +289,9 @@
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="down" />
   </action>
   <action id="Markdown.Styling.CreateLink" />
+  <action id="MergeSettings">
+    <keyboard-shortcut first-keystroke="meta back_slash" second-keystroke="m" />
+  </action>
   <action id="MethodOverloadSwitchDown">
     <keyboard-shortcut first-keystroke="shift meta 0" />
   </action>
@@ -335,11 +339,21 @@
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl f2" />
   </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
+  <action id="ResetToMySettings">
+    <keyboard-shortcut first-keystroke="meta back_slash" second-keystroke="r" />
+  </action>
+  <action id="ResetToTheirsSettings">
+    <keyboard-shortcut first-keystroke="meta back_slash" second-keystroke="l" />
+  </action>
   <action id="Resume">
     <keyboard-shortcut first-keystroke="meta alt r" />
   </action>
   <action id="SelectAllOccurrences" />
   <action id="SelectNextOccurrence" />
+  <action id="ServiceView.ShowServices" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="f2" />
