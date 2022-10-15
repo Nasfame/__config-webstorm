@@ -7,6 +7,9 @@
       <action id="FindPrevious">
         <abbreviation name="next" />
       </action>
+      <action id="SyncSettings">
+        <abbreviation name="sync" />
+      </action>
     </abbreviations>
   </component>
 </application>

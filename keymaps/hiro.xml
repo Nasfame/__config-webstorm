@@ -278,6 +278,10 @@
   <action id="GithubCopyPathProvider">
     <keyboard-shortcut first-keystroke="shift meta c" second-keystroke="1" />
   </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift meta a" />
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="GotoSuperMethod" />
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="meta subtract" />
@@ -360,6 +364,9 @@
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="f8" />
   </action>
   <action id="StepInto" />
+  <action id="SyncSettings">
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+  </action>
   <action id="Synchronize" />
   <action id="Table-selectFirstRow" />
   <action id="ToggleBookmarkWithMnemonic" />
