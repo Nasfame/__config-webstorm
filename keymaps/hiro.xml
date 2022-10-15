@@ -84,17 +84,20 @@
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="CollapseAllRegions">
-    <keyboard-shortcut first-keystroke="shift meta minus" second-keystroke="a" />
+    <keyboard-shortcut first-keystroke="shift ctrl minus" second-keystroke="a" />
+  </action>
+  <action id="CollapseDocComments">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" second-keystroke="d" />
   </action>
   <action id="CollapseExpandableComponent">
     <keyboard-shortcut first-keystroke="shift enter" />
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="CollapseRegion">
-    <keyboard-shortcut first-keystroke="meta minus" />
+    <keyboard-shortcut first-keystroke="shift ctrl minus" second-keystroke="space" />
   </action>
   <action id="CollapseRegionRecursively">
-    <keyboard-shortcut first-keystroke="shift meta minus" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="shift ctrl minus" second-keystroke="r" />
   </action>
   <action id="Compare.Selected">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="up" />
@@ -198,6 +201,49 @@
   <action id="EditorTextStart" />
   <action id="EditorToggleCase" />
   <action id="EditorUnSelectWord" />
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift meta equals" second-keystroke="a" />
+    <keyboard-shortcut first-keystroke="shift ctrl equals" second-keystroke="a" />
+  </action>
+  <action id="ExpandAllToLevel1">
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="numpad1" />
+  </action>
+  <action id="ExpandAllToLevel2">
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="numpad2" />
+  </action>
+  <action id="ExpandAllToLevel3">
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="numpad3" />
+  </action>
+  <action id="ExpandAllToLevel4">
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="numpad4" />
+  </action>
+  <action id="ExpandAllToLevel5">
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="numpad5" />
+  </action>
+  <action id="ExpandDocComments">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" second-keystroke="d" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" second-keystroke="space" />
+  </action>
+  <action id="ExpandRegionRecursively">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" second-keystroke="r" />
+  </action>
+  <action id="ExpandToLevel1">
+    <keyboard-shortcut first-keystroke="meta multiply" second-keystroke="numpad1" />
+  </action>
+  <action id="ExpandToLevel2">
+    <keyboard-shortcut first-keystroke="meta multiply" second-keystroke="numpad2" />
+  </action>
+  <action id="ExpandToLevel3">
+    <keyboard-shortcut first-keystroke="meta multiply" second-keystroke="numpad3" />
+  </action>
+  <action id="ExpandToLevel4">
+    <keyboard-shortcut first-keystroke="meta multiply" second-keystroke="numpad4" />
+  </action>
+  <action id="ExpandToLevel5">
+    <keyboard-shortcut first-keystroke="meta multiply" second-keystroke="numpad5" />
+  </action>
   <action id="ExternalSystem.CollapseAll">
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
@@ -342,6 +388,7 @@
   <action id="VcsShowPrevChangeMarker">
     <keyboard-shortcut first-keystroke="f7" />
   </action>
+  <action id="ZoomCurrentWindow" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleCodeSpanAction" />
   <action id="tasks.close" />
