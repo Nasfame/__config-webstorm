@@ -343,7 +343,10 @@
     <keyboard-shortcut first-keystroke="ctrl f2" />
   </action>
   <action id="ResetToMySettings">
-    <keyboard-shortcut first-keystroke="meta back_slash" />
+    <keyboard-shortcut first-keystroke="shift meta back_slash" second-keystroke="r" />
+  </action>
+  <action id="ResetToTheirsSettings">
+    <keyboard-shortcut first-keystroke="shift meta back_slash" second-keystroke="l" />
   </action>
   <action id="Resume">
     <keyboard-shortcut first-keystroke="meta alt r" />
@@ -369,7 +372,7 @@
   </action>
   <action id="StepInto" />
   <action id="SyncSettings">
-    <keyboard-shortcut first-keystroke="shift meta back_slash" />
+    <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
   <action id="Synchronize" />
   <action id="Table-selectFirstRow" />
