@@ -13,12 +13,12 @@
     <keyboard-shortcut first-keystroke="meta t" second-keystroke="c" />
   </action>
   <action id="ActivateDatabaseToolWindow">
-    <keyboard-shortcut first-keystroke="meta t" second-keystroke="d" />
+    <keyboard-shortcut first-keystroke="meta t" second-keystroke="shift d" />
   </action>
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="meta 5" />
     <keyboard-shortcut first-keystroke="alt t" second-keystroke="d" />
-    <keyboard-shortcut first-keystroke="meta t" second-keystroke="shift d" />
+    <keyboard-shortcut first-keystroke="meta t" second-keystroke="d" />
   </action>
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="meta 3" />
@@ -84,10 +84,6 @@
   <action id="ChangesView.RemoveDeleted">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="back_space" />
   </action>
-  <action id="ChangesView.Revert">
-    <keyboard-shortcut first-keystroke="meta alt z" />
-    <keyboard-shortcut first-keystroke="meta g" second-keystroke="z" />
-  </action>
   <action id="ChangesView.SetDefault" />
   <action id="ChangesView.ShelveSilently" />
   <action id="ChangesView.UnshelveSilently" />
@@ -106,22 +102,22 @@
   </action>
   <action id="CollapseAllRegions">
     <keyboard-shortcut first-keystroke="shift meta minus" second-keystroke="a" />
-    <keyboard-shortcut first-keystroke="meta minus" second-keystroke="a" />
+    <keyboard-shortcut first-keystroke="shift alt minus" second-keystroke="a" />
   </action>
   <action id="CollapseDocComments">
     <keyboard-shortcut first-keystroke="shift meta minus" second-keystroke="d" />
-    <keyboard-shortcut first-keystroke="meta minus" second-keystroke="d" />
+    <keyboard-shortcut first-keystroke="shift alt minus" second-keystroke="d" />
   </action>
   <action id="CollapseExpandableComponent">
     <keyboard-shortcut first-keystroke="shift enter" />
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="CollapseRegion">
-    <keyboard-shortcut first-keystroke="meta minus" second-keystroke="minus" />
+    <keyboard-shortcut first-keystroke="meta minus" />
   </action>
   <action id="CollapseRegionRecursively">
     <keyboard-shortcut first-keystroke="shift meta minus" second-keystroke="r" />
-    <keyboard-shortcut first-keystroke="meta minus" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="shift alt minus" second-keystroke="r" />
   </action>
   <action id="Compare.Selected">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="up" />
@@ -198,7 +194,6 @@
   <action id="EditorDownWithSelection">
     <keyboard-shortcut first-keystroke="meta page_down" />
   </action>
-  <action id="EditorFocusGutter" />
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
@@ -217,19 +212,21 @@
   </action>
   <action id="EditorLineEndWithSelection" />
   <action id="EditorMoveToPageBottom" />
-  <action id="EditorNextWord">
-    <keyboard-shortcut first-keystroke="ctrl alt f" />
-  </action>
   <action id="EditorNextWordWithSelection" />
   <action id="EditorPasteSimple" />
-  <action id="EditorPreviousWord">
-    <keyboard-shortcut first-keystroke="ctrl alt b" />
-  </action>
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
   </action>
+  <action id="EditorSearchSession.ToggleMatchCase">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="EditorSearchSession.ToggleRegex">
+    <keyboard-shortcut first-keystroke="shift ctrl f" second-keystroke="r" />
+  </action>
+  <action id="EditorSearchSession.ToggleWholeWordsOnlyAction">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="EditorSelectWord" />
-  <action id="EditorShowGutterIconTooltip" />
   <action id="EditorTextStart" />
   <action id="EditorToggleCase" />
   <action id="EditorUnSelectWord" />
@@ -238,7 +235,7 @@
   </action>
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="shift meta equals" second-keystroke="a" />
-    <keyboard-shortcut first-keystroke="meta equals" second-keystroke="a" />
+    <keyboard-shortcut first-keystroke="shift alt equals" second-keystroke="a" />
   </action>
   <action id="ExpandAllToLevel1">
     <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="numpad1" />
@@ -257,18 +254,18 @@
   </action>
   <action id="ExpandDocComments">
     <keyboard-shortcut first-keystroke="shift meta equals" second-keystroke="d" />
-    <keyboard-shortcut first-keystroke="meta equals" second-keystroke="d" />
+    <keyboard-shortcut first-keystroke="shift alt equals" second-keystroke="d" />
   </action>
   <action id="ExpandExpandableComponent">
     <keyboard-shortcut first-keystroke="shift enter" />
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
   <action id="ExpandRegion">
-    <keyboard-shortcut first-keystroke="meta equals" second-keystroke="equals" />
+    <keyboard-shortcut first-keystroke="meta equals" />
   </action>
   <action id="ExpandRegionRecursively">
     <keyboard-shortcut first-keystroke="shift meta equals" second-keystroke="r" />
-    <keyboard-shortcut first-keystroke="meta equals" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="shift alt equals" second-keystroke="r" />
   </action>
   <action id="ExpandToLevel1">
     <keyboard-shortcut first-keystroke="meta multiply" second-keystroke="numpad1" />
@@ -324,9 +321,7 @@
     <keyboard-shortcut first-keystroke="shift meta a" />
     <keyboard-shortcut first-keystroke="f4" />
   </action>
-  <action id="GotoClass" />
   <action id="GotoSuperMethod" />
-  <action id="GotoTest" />
   <action id="GotoUrlAction" />
   <action id="Graph.AlignNodes.Top" />
   <action id="HideActiveWindow">
@@ -340,9 +335,6 @@
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="JumpToLastWindow" />
-  <action id="JupyterNotebookMoveCellDownCommandModeAction">
-    <keyboard-shortcut first-keystroke="alt j" />
-  </action>
   <action id="List-selectLastRow" />
   <action id="List-selectLastRowExtendSelection" />
   <action id="LocalHistory.ShowSelectionHistory">
@@ -368,9 +360,6 @@
     <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
   <action id="NotebookSplitCellAction" />
-  <action id="OpenFile">
-    <keyboard-shortcut first-keystroke="meta o" second-keystroke="o" />
-  </action>
   <action id="OpenInRightSplit">
     <keyboard-shortcut first-keystroke="shift enter" />
     <mouse-shortcut keystroke="alt button1 doubleClick" />
@@ -397,17 +386,12 @@
     <keyboard-shortcut first-keystroke="shift meta space" second-keystroke="d" />
   </action>
   <action id="QuickTypeDefinition">
+    <mouse-shortcut keystroke="button1 doubleClick" />
     <keyboard-shortcut first-keystroke="shift meta space" second-keystroke="t" />
   </action>
   <action id="RecentLocations" />
-  <action id="RecentProjectListGroup">
-    <keyboard-shortcut first-keystroke="meta o" second-keystroke="r" />
-  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl f2" />
-  </action>
-  <action id="ReopenClosedTab">
-    <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="ResetToMySettings">
     <keyboard-shortcut first-keystroke="shift meta back_slash" second-keystroke="r" />
@@ -420,7 +404,6 @@
   </action>
   <action id="SelectAllOccurrences" />
   <action id="SelectNextOccurrence" />
-  <action id="ServiceView.ShowServices" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="f2" />
@@ -432,7 +415,6 @@
   <action id="ShowSettingsAndFindUsages">
     <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="s" />
   </action>
-  <action id="SmartTypeCompletion" />
   <action id="StartStopMacroRecording">
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="up" />
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="s" />
@@ -460,6 +442,7 @@
   </action>
   <action id="Tree-selectFirst" />
   <action id="UnselectPreviousOccurrence" />
+  <action id="UsageFiltering.WriteAccess" />
   <action id="UsageView.Include" />
   <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.Push">
@@ -484,7 +467,6 @@
     <keyboard-shortcut first-keystroke="f7" />
   </action>
   <action id="ZoomCurrentWindow" />
-  <action id="hg4idea.QFold" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleCodeSpanAction" />
   <action id="tasks.close" />
