@@ -1,15 +1,6 @@
 <application>
   <component name="AbbreviationManager">
     <abbreviations>
-      <action id="HideActiveWindow">
-        <abbreviation name="hide" />
-      </action>
-      <action id="FindNext">
-        <abbreviation name="prev" />
-      </action>
-      <action id="FindPrevious">
-        <abbreviation name="next" />
-      </action>
       <action id="SyncSettings">
         <abbreviation name="sync" />
       </action>
