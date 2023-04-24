@@ -2,7 +2,4 @@
   <component name="aws">
     <option name="promptedForTelemetry" value="true" />
   </component>
-  <component name="codewhispererAutotriggerStates">
-    <option name="classifierGroup" value="false" />
-  </component>
 </application>
