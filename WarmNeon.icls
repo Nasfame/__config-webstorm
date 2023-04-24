@@ -4,7 +4,7 @@
     <property name="created">2022-10-05T15:58:21</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2022.2.2.0.0</property>
-    <property name="modified">2022-12-14T06:45:14</property>
+    <property name="modified">2023-01-01T16:52:23</property>
     <property name="originalScheme">_@user_WarmNeon</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
@@ -83,7 +83,7 @@
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="211a1a" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
@@ -106,6 +106,12 @@
         <option name="FOREGROUND" value="20bad5" />
       </value>
     </option>
+    <option name="CONSOLE_DARKGRAY_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="21252b" />
+        <option name="BACKGROUND" value="aa9a9a" />
+      </value>
+    </option>
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
         <option name="FOREGROUND" value="e54242" />
@@ -114,6 +120,8 @@
     <option name="CONSOLE_GRAY_OUTPUT">
       <value>
         <option name="FOREGROUND" value="a7a7a7" />
+        <option name="EFFECT_COLOR" value="3c3f41" />
+        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
@@ -844,6 +852,13 @@
     <option name="LOGCAT_WARNING_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ffff00" />
+      </value>
+    </option>
+    <option name="LOG_EXPIRED_ENTRY">
+      <value>
+        <option name="FOREGROUND" value="eaa8a8" />
+        <option name="EFFECT_COLOR" value="3c3f41" />
+        <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
     <option name="List/map to object conversion">
