@@ -1,3 +1,5 @@
+#!/bin/sh
+
 git add .
-git commit -m "baymax $(date +%d-%m-%y)" 
+git commit -m "$(date +%d-%m-%y)"
 git push -f
