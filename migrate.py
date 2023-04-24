@@ -80,9 +80,8 @@ for config_folder in destinations:
         # ["git", "add", "."],
         "chmod -x .git/hooks/post-commit",
         "git add .",
-        f"""git -c custom.ignorePostCommitHook=true commit -m "synced with {current_config_folder}" """,
+        f"""git commit -m "synced with {current_config_folder}" """,
         "chmod +x .git/hooks/post-commit"
-        # ["git", "-c custom.ignorePostCommitHook=true","commit", "-m",  f"synced with {current_config_folder}"]
     ]
     # https://linuxhint.com/execute_shell_python_subprocess_run_method/
     for git_cmd in git_cmds:
