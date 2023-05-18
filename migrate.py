@@ -71,9 +71,9 @@ for config_folder in destinations:
             # if os.path.exists(destination): shutil.rmtree(destination)
             shutil.copytree(src, destination, dirs_exist_ok=True)
 
-    with open(f"{dest_config}/sync.log", 'a') as f1:
+    with open(f"{dest_config}/sync.log", 'w') as f1:
         now_utc = datetime.utcnow()
-        f1.write(f"{now_utc} {current_config_folder} | Timezone - IST")
+        f1.write(f"{now_utc} {current_config_folder} | Timezone - IST\n")
         print("appending sync.log")
 
     git_cmds = [
