@@ -598,6 +598,7 @@
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="w" />
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="shift left" />
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="shift up" />
   </action>
   <action id="UsageGrouping.FileStructure" />
   <action id="UsageGrouping.Module" />
