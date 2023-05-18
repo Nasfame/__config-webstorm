@@ -75,9 +75,6 @@
   </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
-  <action id="ChangeSplitOrientation">
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="t" />
-  </action>
   <action id="ChangesView.AddUnversioned">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="a" />
   </action>
@@ -345,19 +342,10 @@
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="down" />
   </action>
   <action id="Markdown.Styling.CreateLink" />
-  <action id="MaximizeEditorInSplit">
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="m" />
-  </action>
   <action id="MethodOverloadSwitchDown">
     <keyboard-shortcut first-keystroke="shift meta 0" />
   </action>
   <action id="MoveLineDown" />
-  <action id="MoveTabDown">
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="down" />
-  </action>
-  <action id="MoveTabRight">
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="right" />
-  </action>
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="d" />
   </action>
@@ -427,12 +415,6 @@
   <action id="ShowSettingsAndFindUsages">
     <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="s" />
   </action>
-  <action id="SplitHorizontally">
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="r" />
-  </action>
-  <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="s" />
-  </action>
   <action id="StartStopMacroRecording">
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="up" />
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="s" />
@@ -440,18 +422,6 @@
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="f8" />
   </action>
   <action id="StepInto" />
-  <action id="StretchSplitToBottom">
-    <keyboard-shortcut first-keystroke="shift ctrl s" second-keystroke="down" />
-  </action>
-  <action id="StretchSplitToLeft">
-    <keyboard-shortcut first-keystroke="shift ctrl s" second-keystroke="left" />
-  </action>
-  <action id="StretchSplitToRight">
-    <keyboard-shortcut first-keystroke="shift ctrl s" second-keystroke="right" />
-  </action>
-  <action id="StretchSplitToTop">
-    <keyboard-shortcut first-keystroke="shift ctrl s" second-keystroke="up" />
-  </action>
   <action id="SyncSettings">
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
@@ -472,17 +442,7 @@
   </action>
   <action id="Tree-selectFirst" />
   <action id="UnselectPreviousOccurrence" />
-  <action id="Unsplit">
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="up" />
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="left" />
-  </action>
-  <action id="UnsplitAll">
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="w" />
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="shift up" />
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="shift left" />
-  </action>
   <action id="UsageFiltering.WriteAccess" />
-  <action id="UsageGrouping.FileStructure" />
   <action id="UsageView.Include" />
   <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.Push">
