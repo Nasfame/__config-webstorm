@@ -220,6 +220,9 @@
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
   </action>
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
+  </action>
   <action id="EditorSearchSession.ToggleMatchCase">
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
@@ -376,6 +379,9 @@
   <action id="PlaybackLastMacro">
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="f7" />
   </action>
+  <action id="PrettierImportCodeStyleAction">
+    <keyboard-shortcut first-keystroke="ctrl f" second-keystroke="p" />
+  </action>
   <action id="PrevSplitter" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="ctrl left" />
@@ -430,6 +436,7 @@
   </action>
   <action id="Synchronize" />
   <action id="Table-selectFirstRow" />
+  <action id="TodoViewGroupByFlattenPackage" />
   <action id="ToggleBookmarkWithMnemonic" />
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="ctrl v" second-keystroke="d" />
