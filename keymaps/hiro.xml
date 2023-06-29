@@ -84,6 +84,9 @@
   <action id="ChangesView.RemoveDeleted">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="back_space" />
   </action>
+  <action id="ChangesView.Revert">
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="z" />
+  </action>
   <action id="ChangesView.SetDefault" />
   <action id="ChangesView.ShelveSilently" />
   <action id="ChangesView.UnshelveSilently" />
