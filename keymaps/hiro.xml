@@ -327,6 +327,7 @@
     <keyboard-shortcut first-keystroke="shift meta a" />
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="GotoClass" />
   <action id="GotoSuperMethod" />
   <action id="GotoUrlAction" />
   <action id="Graph.AlignNodes.Top" />
@@ -366,6 +367,12 @@
     <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
   <action id="NotebookSplitCellAction" />
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="meta o" second-keystroke="o" />
+  </action>
+  <action id="OpenInBrowserGroup">
+    <keyboard-shortcut first-keystroke="meta o" second-keystroke="b" />
+  </action>
   <action id="OpenInRightSplit">
     <keyboard-shortcut first-keystroke="shift enter" />
     <mouse-shortcut keystroke="alt button1 doubleClick" />
@@ -399,6 +406,9 @@
     <keyboard-shortcut first-keystroke="shift meta space" second-keystroke="t" />
   </action>
   <action id="RecentLocations" />
+  <action id="RecentProjectListGroup">
+    <keyboard-shortcut first-keystroke="meta o" second-keystroke="r" />
+  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl f2" />
   </action>
@@ -436,6 +446,9 @@
   </action>
   <action id="Synchronize" />
   <action id="Table-selectFirstRow" />
+  <action id="Terminal.OpenInTerminal">
+    <keyboard-shortcut first-keystroke="meta o" second-keystroke="t" />
+  </action>
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="ToggleBookmarkWithMnemonic" />
   <action id="ToggleDistractionFreeMode">
