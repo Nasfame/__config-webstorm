@@ -1,0 +1,139 @@
+<application>
+  <component name="ToolWindowLayout"><![CDATA[{
+  "layouts": {
+    "Custom": {
+      "v1": [
+        {
+          "id": "Commit",
+          "weight": 0.21755952
+        },
+        {
+          "id": "CodiumAI Structure",
+          "order": 0,
+          "isSplit": true
+        },
+        {
+          "id": "Bookmarks",
+          "order": 1,
+          "isSplit": true
+        },
+        {
+          "id": "aws.toolkit.explorer",
+          "order": 2,
+          "isSplit": true
+        },
+        {
+          "id": "npm",
+          "order": 3,
+          "isSplit": true
+        },
+        {
+          "id": "Project",
+          "order": 4,
+          "contentUiType": "COMBO",
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.20863095
+        },
+        {
+          "id": "Structure",
+          "order": 5,
+          "isSplit": true
+        },
+        {
+          "id": "Version Control",
+          "order": 0,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Find",
+          "order": 1,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Debug",
+          "order": 3,
+          "anchor": "BOTTOM",
+          "weight": 0.4
+        },
+        {
+          "id": "TODO",
+          "order": 4,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Package Json",
+          "order": 5,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Inspection",
+          "order": 6,
+          "anchor": "BOTTOM",
+          "weight": 0.4
+        },
+        {
+          "id": "Problems View",
+          "order": 7,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Terminal",
+          "order": 8,
+          "anchor": "BOTTOM",
+          "weight": 0.3300209
+        },
+        {
+          "id": "Jira",
+          "order": 9,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "GitLive",
+          "order": 10,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Services",
+          "order": 11,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "GitHub Actions",
+          "order": 12,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "CodiumAI",
+          "order": 0,
+          "anchor": "RIGHT"
+        },
+        {
+          "id": "Notifications",
+          "order": 1,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Bito",
+          "order": 2,
+          "anchor": "RIGHT"
+        },
+        {
+          "id": "Run",
+          "order": 3,
+          "anchor": "RIGHT",
+          "isVisible": true,
+          "weight": 0.33005953
+        }
+      ],
+      "unifiedWeights": {
+        "top": 0.33,
+        "left": 0.20863095,
+        "bottom": 0.3300209,
+        "right": 0.33005953
+      }
+    }
+  }
+}]]></component>
+</application>
