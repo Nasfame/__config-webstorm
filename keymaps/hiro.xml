@@ -167,6 +167,7 @@
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="EditorChooseLookupItemDot" />
   <action id="EditorCutLineEnd" />
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl minus" />
@@ -441,6 +442,10 @@
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="f8" />
   </action>
   <action id="StepInto" />
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="meta f2" />
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
   <action id="SyncSettings">
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
