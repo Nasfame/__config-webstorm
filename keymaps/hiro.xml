@@ -324,8 +324,8 @@
     <keyboard-shortcut first-keystroke="shift meta c" second-keystroke="1" />
   </action>
   <action id="GotoAction">
-    <keyboard-shortcut first-keystroke="shift meta a" />
     <keyboard-shortcut first-keystroke="f4" />
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
   </action>
   <action id="GotoClass" />
   <action id="GotoSuperMethod" />
