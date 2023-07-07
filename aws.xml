@@ -1,4 +1,19 @@
 <application>
+  <component name="authManager">
+    <option name="ssoProfiles">
+      <list>
+        <ManagedSsoProfile>
+          <option name="scopes">
+            <list>
+              <option value="sso:account:access" />
+            </list>
+          </option>
+          <option name="ssoRegion" value="us-east-1" />
+          <option name="startUrl" value="https://view.awsapps.com/start" />
+        </ManagedSsoProfile>
+      </list>
+    </option>
+  </component>
   <component name="aws">
     <option name="promptedForTelemetry" value="true" />
   </component>
