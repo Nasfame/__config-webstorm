@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="LICENSE" type="AUTO_DETECTED" />
       <mapping pattern="hypertest" type="AUTO_DETECTED" />
       <mapping ext="xlsx" type="Markdown" />
       <mapping ext="webmanifest" type="PLAIN_TEXT" />
