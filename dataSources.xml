@@ -7,7 +7,7 @@
       <jdbc-url>jdbc:postgresql://nest-js-5295.8nk.cockroachlabs.cloud:26257/bookmark-mgmt</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="taskmon_ai" uuid="9a5f864a-41c6-49b9-8255-1ad937270e05">
+    <data-source source="LOCAL" name="taskmon_ai_depreacted" uuid="9a5f864a-41c6-49b9-8255-1ad937270e05">
       <driver-ref>cockroach</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
