@@ -84,9 +84,6 @@
   <action id="ChangesView.RemoveDeleted">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="back_space" />
   </action>
-  <action id="ChangesView.Revert">
-    <keyboard-shortcut first-keystroke="meta g" second-keystroke="z" />
-  </action>
   <action id="ChangesView.SetDefault" />
   <action id="ChangesView.ShelveSilently" />
   <action id="ChangesView.UnshelveSilently" />
@@ -130,10 +127,6 @@
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="shift v" />
   </action>
   <action id="CompareTwoFiles" />
-  <action id="Console.Jdbc.Execute">
-    <keyboard-shortcut first-keystroke="meta enter" />
-    <keyboard-shortcut first-keystroke="ctrl enter" />
-  </action>
   <action id="Console.TableResult.SetDefault" />
   <action id="CopyAsPlainText">
     <keyboard-shortcut first-keystroke="shift meta c" second-keystroke="c" />
@@ -171,10 +164,7 @@
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
-  <action id="EditorChooseLookupItemDot" />
-  <action id="EditorCutLineEnd">
-    <keyboard-shortcut first-keystroke="shift ctrl c" second-keystroke="right" />
-  </action>
+  <action id="EditorCutLineEnd" />
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
@@ -226,9 +216,6 @@
   <action id="EditorPasteSimple" />
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
-  </action>
-  <action id="EditorRight">
-    <keyboard-shortcut first-keystroke="right" />
   </action>
   <action id="EditorSearchSession.ToggleMatchCase">
     <keyboard-shortcut first-keystroke="ctrl c" />
@@ -331,12 +318,10 @@
     <keyboard-shortcut first-keystroke="shift meta c" second-keystroke="1" />
   </action>
   <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift meta a" />
     <keyboard-shortcut first-keystroke="f4" />
-    <keyboard-shortcut first-keystroke="shift ctrl a" />
   </action>
-  <action id="GotoClass" />
   <action id="GotoSuperMethod" />
-  <action id="GotoTest" />
   <action id="GotoUrlAction" />
   <action id="Graph.AlignNodes.Top" />
   <action id="HideActiveWindow">
@@ -375,20 +360,10 @@
     <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
   <action id="NotebookSplitCellAction" />
-  <action id="OpenFile">
-    <keyboard-shortcut first-keystroke="meta o" second-keystroke="o" />
-  </action>
-  <action id="OpenInBrowserGroup">
-    <keyboard-shortcut first-keystroke="meta o" second-keystroke="b" />
-  </action>
   <action id="OpenInRightSplit">
     <keyboard-shortcut first-keystroke="shift enter" />
     <mouse-shortcut keystroke="alt button1 doubleClick" />
     <mouse-shortcut keystroke="meta button1 doubleClick" />
-  </action>
-  <action id="OptimizeImports">
-    <keyboard-shortcut first-keystroke="ctrl alt o" />
-    <keyboard-shortcut first-keystroke="shift ctrl f" second-keystroke="o" />
   </action>
   <action id="OverrideMethods" />
   <action id="PlaySavedMacrosAction">
@@ -397,9 +372,6 @@
   </action>
   <action id="PlaybackLastMacro">
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="f7" />
-  </action>
-  <action id="PrettierImportCodeStyleAction">
-    <keyboard-shortcut first-keystroke="ctrl f" second-keystroke="p" />
   </action>
   <action id="PrevSplitter" />
   <action id="PreviousTab">
@@ -418,14 +390,8 @@
     <keyboard-shortcut first-keystroke="shift meta space" second-keystroke="t" />
   </action>
   <action id="RecentLocations" />
-  <action id="RecentProjectListGroup">
-    <keyboard-shortcut first-keystroke="meta o" second-keystroke="r" />
-  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl f2" />
-  </action>
-  <action id="ReopenClosedTab">
-    <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="ResetToMySettings">
     <keyboard-shortcut first-keystroke="shift meta back_slash" second-keystroke="r" />
@@ -438,7 +404,6 @@
   </action>
   <action id="SelectAllOccurrences" />
   <action id="SelectNextOccurrence" />
-  <action id="ServiceView.ShowServices" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="f2" />
@@ -457,19 +422,11 @@
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="f8" />
   </action>
   <action id="StepInto" />
-  <action id="Stop">
-    <keyboard-shortcut first-keystroke="meta f2" />
-    <keyboard-shortcut first-keystroke="ctrl period" />
-  </action>
   <action id="SyncSettings">
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
   <action id="Synchronize" />
   <action id="Table-selectFirstRow" />
-  <action id="Terminal.OpenInTerminal">
-    <keyboard-shortcut first-keystroke="meta o" second-keystroke="t" />
-  </action>
-  <action id="TodoViewGroupByFlattenPackage" />
   <action id="ToggleBookmarkWithMnemonic" />
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="ctrl v" second-keystroke="d" />
@@ -513,5 +470,4 @@
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleCodeSpanAction" />
   <action id="tasks.close" />
-  <action id="uk.co.ben_gibson.git.link.ui.actions.menu.CopyAction" />
 </keymap>
