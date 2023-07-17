@@ -81,8 +81,13 @@
   <action id="ChangesView.Edit">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="o" />
   </action>
+  <action id="ChangesView.Move" />
   <action id="ChangesView.RemoveDeleted">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="back_space" />
+  </action>
+  <action id="ChangesView.Revert">
+    <keyboard-shortcut first-keystroke="meta alt z" />
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="z" />
   </action>
   <action id="ChangesView.SetDefault" />
   <action id="ChangesView.ShelveSilently" />
@@ -194,6 +199,7 @@
   <action id="EditorDownWithSelection">
     <keyboard-shortcut first-keystroke="meta page_down" />
   </action>
+  <action id="EditorFocusGutter" />
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
@@ -212,8 +218,14 @@
   </action>
   <action id="EditorLineEndWithSelection" />
   <action id="EditorMoveToPageBottom" />
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
   <action id="EditorNextWordWithSelection" />
   <action id="EditorPasteSimple" />
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
   </action>
@@ -320,6 +332,7 @@
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta a" />
     <keyboard-shortcut first-keystroke="f4" />
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
   </action>
   <action id="GotoSuperMethod" />
   <action id="GotoUrlAction" />
@@ -334,6 +347,8 @@
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
+  <action id="Jdbc.OpenConsole.New" />
+  <action id="Jdbc.OpenConsole.New.Generate" />
   <action id="JumpToLastWindow" />
   <action id="List-selectLastRow" />
   <action id="List-selectLastRowExtendSelection" />
@@ -415,6 +430,7 @@
   <action id="ShowSettingsAndFindUsages">
     <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="s" />
   </action>
+  <action id="SmartTypeCompletion" />
   <action id="StartStopMacroRecording">
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="up" />
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="s" />
@@ -445,6 +461,7 @@
   <action id="UsageFiltering.WriteAccess" />
   <action id="UsageView.Include" />
   <action id="UsageView.ShowRecentFindUsages" />
+  <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="p" />
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="right" />
