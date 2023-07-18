@@ -325,6 +325,7 @@
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="f4" />
     <keyboard-shortcut first-keystroke="shift ctrl a" />
+    <keyboard-shortcut first-keystroke="ctrl space" />
   </action>
   <action id="GotoClass" />
   <action id="GotoSuperMethod" />
