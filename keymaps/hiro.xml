@@ -167,7 +167,9 @@
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
-  <action id="EditorCutLineEnd" />
+  <action id="EditorCutLineEnd">
+    <keyboard-shortcut first-keystroke="shift ctrl c" second-keystroke="right" />
+  </action>
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
@@ -483,4 +485,5 @@
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleCodeSpanAction" />
   <action id="tasks.close" />
+  <action id="uk.co.ben_gibson.git.link.ui.actions.menu.CopyAction" />
 </keymap>
