@@ -1,21 +1,6 @@
 <application>
   <component name="AbbreviationManager">
     <abbreviations>
-      <action id="com.darkyen.actions.ResetGitTimeAction">
-        <abbreviation name="resetG" />
-      </action>
-      <action id="HideSideWindows">
-        <abbreviation name="hides" />
-      </action>
-      <action id="com.darkyen.actions.ResetTimeAction">
-        <abbreviation name="reset" />
-      </action>
-      <action id="ActiveToolwindowGroup">
-        <abbreviation name="hidea" />
-      </action>
-      <action id="HideAllWindows">
-        <abbreviation name="hide" />
-      </action>
       <action id="SyncSettings">
         <abbreviation name="sync" />
       </action>

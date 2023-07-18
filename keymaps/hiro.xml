@@ -84,9 +84,6 @@
   <action id="ChangesView.RemoveDeleted">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="back_space" />
   </action>
-  <action id="ChangesView.Revert">
-    <keyboard-shortcut first-keystroke="meta g" second-keystroke="z" />
-  </action>
   <action id="ChangesView.SetDefault" />
   <action id="ChangesView.ShelveSilently" />
   <action id="ChangesView.UnshelveSilently" />
@@ -167,9 +164,7 @@
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
-  <action id="EditorCutLineEnd">
-    <keyboard-shortcut first-keystroke="shift ctrl c" second-keystroke="right" />
-  </action>
+  <action id="EditorCutLineEnd" />
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
@@ -323,19 +318,16 @@
     <keyboard-shortcut first-keystroke="shift meta c" second-keystroke="1" />
   </action>
   <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift meta a" />
     <keyboard-shortcut first-keystroke="f4" />
-    <keyboard-shortcut first-keystroke="shift ctrl a" />
-    <keyboard-shortcut first-keystroke="ctrl space" />
   </action>
-  <action id="GotoClass" />
   <action id="GotoSuperMethod" />
-  <action id="GotoTest" />
   <action id="GotoUrlAction" />
   <action id="Graph.AlignNodes.Top" />
   <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="shift escape" />
     <keyboard-shortcut first-keystroke="alt t" second-keystroke="h" />
   </action>
-  <action id="HideAllWindows" />
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
@@ -368,12 +360,6 @@
     <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
   <action id="NotebookSplitCellAction" />
-  <action id="OpenFile">
-    <keyboard-shortcut first-keystroke="meta o" second-keystroke="o" />
-  </action>
-  <action id="OpenInBrowserGroup">
-    <keyboard-shortcut first-keystroke="meta o" second-keystroke="b" />
-  </action>
   <action id="OpenInRightSplit">
     <keyboard-shortcut first-keystroke="shift enter" />
     <mouse-shortcut keystroke="alt button1 doubleClick" />
@@ -404,14 +390,8 @@
     <keyboard-shortcut first-keystroke="shift meta space" second-keystroke="t" />
   </action>
   <action id="RecentLocations" />
-  <action id="RecentProjectListGroup">
-    <keyboard-shortcut first-keystroke="meta o" second-keystroke="r" />
-  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl f2" />
-  </action>
-  <action id="ReopenClosedTab">
-    <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="ResetToMySettings">
     <keyboard-shortcut first-keystroke="shift meta back_slash" second-keystroke="r" />
@@ -424,7 +404,6 @@
   </action>
   <action id="SelectAllOccurrences" />
   <action id="SelectNextOccurrence" />
-  <action id="ServiceView.ShowServices" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="f2" />
@@ -491,5 +470,4 @@
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleCodeSpanAction" />
   <action id="tasks.close" />
-  <action id="uk.co.ben_gibson.git.link.ui.actions.menu.CopyAction" />
 </keymap>
