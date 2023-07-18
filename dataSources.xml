@@ -1,0 +1,11 @@
+<application>
+  <component name="dataSourceStorage" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="JSFame" uuid="73ead909-ab3e-4e4b-8654-ddccef5545c5">
+      <driver-ref>cockroach</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://jsfame-5397.8nk.cockroachlabs.cloud:26257/taskmon_ai?sslmode=verify-full</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</application>
